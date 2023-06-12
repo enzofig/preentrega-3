@@ -1,1 +1,126 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+
+h1 {
+    color:white;
+    text-align: center;
+
+}
+
+
+p {
+    color: gray;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.atajo-margen {
+    margin: 50px 20px 40px 10px;
+    background-color: white;
+}
+
+
+.card img {
+    width: 270px;
+}
+
+.menu li a {
+    color: white;
+    font-weight: 50;
+
+}
+
+
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+header body {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
+@media (min-width: 992px) {
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+    
+
+.logo-header {
+    width: 100px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.h2-css {
+    background-color: white;
+}
+
+
+.h3-css {
+    background-color: white;
+}
+
+
+.h4-css{
+    background-color: white;
+}
+
+
+.li-css {
+    background-color: gray;
+}
+
+
+.logros-css {
+    background-color: gray;
+}
+
+.banner {
+    background-image: url(../img/seleccion-argentina-con-trofeo-copa-mundial-fifa-11268.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.banner h1 {
+    background-color: rgba(52, 200, 220, 0.91)
+}
+
+
+.menu li a:hover {
+    color: red;
+}
+
+
+.menu li a:active {
+    background-color: gray;
+    color: red;
+
+}
+
+header nav {
+    width: 100%;
+}

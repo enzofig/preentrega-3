@@ -4,45 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/Exequiel-Palacios.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> 
     <title>Inicio</title>
 </head>
 <body>
-    <header>
-        <h1>¡bienvenido a la pagina de exequiel palacios!</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-				<li><a href="pages/biografia.html">Biografía</a></li>
-				<li><a href="pages/carrera.html">Carrera</a></li>
-				<li><a href="pages/logros.html">Logros</a></li>
-				<li><a href="pages/contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <header id="arriba" class="fondo-header">
+        <section class="banner">
+        <h1>¡bienvenidos a la pagina de Exequiel Palacios!</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a href="index.html">
+                <img src="img/tucu-palacios.png" alt="Logo Palacios" class="logo-header">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/biografia.html">Biografia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/carrera.html">Carrera</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/logros.html">Logros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 </header>
 <main>
     <section>
-        <h2>¿Quien soy?</h2>
-        <p>Mi nombre es Exequiel Palacios y soy un jugador de fútbol profesional argentino. Actualmente juego en el club Bayer Leverkusen de la Bundesliga alemana y también formo parte de la selección argentina de fútbol</p>
+        <h2 class="h2-css">¿Quien soy?</h2>
+        <p>Mi nombre es Exequiel Palacios y soy un jugador de fútbol profesional Argentino. Actualmente juego en el club Bayer Leverkusen de la Bundesliga Alemana y también formo parte de la selección Argentina de fútbol</p>
     </section>
     
     <section>
-        <h2>¿Donde empece mi carrera?</h2>
-        <p>Empecé mi carrera en River Plate, donde gané varios títulos y me convertí en un jugador importante para el equipo. Luego de una gran temporada, fui transferido al fútbol europeo y desde entonces he estado jugando en el Bayer Leverkusen.</p>
+        <h3 class="h3-css">¿Donde empece mi carrera?</h3>
+        <p>Empecé mi carrera en River Plate, donde gané varios títulos y me convertí en un jugador importante para el equipo. Luego de una gran temporada, fui transferido al fútbol europeo y desde entonces he estado jugando en el Bayer Leverkusen.
+            Y tengo contrato hasta 2025 con el club.
+        </p>
     </section>
     
     <section>
-        <h2>¿Que encontraras en esta pagina?</h2>
-        <p>En esta página encontrarás información sobre mi carrera, mis logros y mi biografía, así como también formas de contactarme y estar en contacto conmigo a través de mis redes sociales.</p>
+        <h4 class="h4-css">¿Que encontraras en esta pagina?</h4>
+        <p>En esta página encontrarás información sobre mi carrera, mis logros y mi biografía, así como también formas de contactarme y estar en contacto conmigo a través de mis redes sociales.
+            Espero que te guste mi pagina y te invito a navegar por mi pagina.
+        </p>
     </section>
 </main>
-
+<section id="enlaces">
+    <a href="#arriba">Ir arriba</a>
+</section>
+<section>
 <footer>
-    <ul>
-        <li><a href="https://www.instagram.com/"> <img src="/img/instagram.png" alt="Instagram" style="width:30px;height:30px;"></a></li>
-            <li><a href="https://twitter.com/"><img src="/img/gorjeo.png" alt="Twitter" style="width:30px;height:30px;"></a></li>
-    </ul>
+    <a href="https://www.instagram.com/" target="_blank">
+    <img src="img/icons8-instagram.svg" alt="Logo instagram">
+</a>
+<a href="https://twitter.com/?lang=es" target="_blank">
+    <img src="img/icons8-twitter.svg" alt="Logo twitter">
+</a>
+
     <p>Derechos de autor © 2023 - Enzo Figueroa</p>
 </footer>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
