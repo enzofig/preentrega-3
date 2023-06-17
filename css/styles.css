@@ -124,3 +124,77 @@ header body {
 header nav {
     width: 100%;
 }
+
+.banner2 {
+    background-image: url(../img/seleccion-argentina-con-trofeo-copa-mundial-fifa-11268.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: black;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+    
+    .logo-header {
+        width: 80px;
+    }
+    
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .h2-css,
+    .h3-css,
+    .h4-css,
+    .li-css,
+    .logros-css {
+        background-color: white;
+    }
+    
+    .banner {
+        height: 50vh;
+    }
+    
+    .banner2 {
+        height: 60vh;
+    }
+}
+
+/* Estilos para la vista de tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-color: black;
+    }
+    
+    .logo-header {
+        width: 90px;
+    }
+    
+    .menu {
+        gap: 8px;
+    }
+    
+    .h2-css,
+    .h3-css,
+    .h4-css,
+    .li-css,
+    .logros-css {
+        background-color: white;
+    }
+    
+    .banner {
+        height: 60vh;
+    }
+    
+    .banner2 {
+        height: 70vh;
+    }
+}
